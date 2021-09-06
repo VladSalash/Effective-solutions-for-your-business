@@ -79,14 +79,58 @@ body {
   color: var(--primary-font-color);
 }
 
-.container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
+@media screen and (min-width: 768px) {
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+
+.container {
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 1px solid #fff;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+
+/* .container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}  */
 .backdrop {
   position: fixed;
   top: 0;
@@ -565,26 +609,35 @@ body {
   margin-right: 10px;
 }
 
-.descript {
-  padding-top: 94px;
-  margin-bottom: 94px;
-}
-
-.description-list {
-  display: flex;
-  list-style: none;
-  padding: 0;
-}
-
+/* .descript {
+    padding-top: 94px;
+    margin-bottom: 94px;
+  }  */
 .description-item {
-  width: 270px;
+  list-style: none;
   height: 251px;
 }
 
-.description-item :not(:last-child) {
-  margin-right: 30px;
+.description-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
+/* .description-list{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0 ;
+  }
+  .description-item{
+    width: 270px; 
+  height:251px ;
+  & :not(:last-child) {
+    margin-right: 30px;
+  }
+  }
+   */
 .description-item > .description-title {
   margin-top: 0;
 }
@@ -604,14 +657,24 @@ body {
 }
 
 .description-title {
+  font-family: var(--primary-font);
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
   margin-bottom: 10px;
+}
+
+.description-paragraph {
+  font-family: var(--primary-font);
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--primary-font-color);
+  margin-bottom: 30px;
 }
 
 .performans {
