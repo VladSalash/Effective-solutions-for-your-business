@@ -1,40 +1,34 @@
+ 
  /* .descript {
     padding-top: 94px;
     margin-bottom: 94px;
   }  */
-  .description-item{
-    list-style: none;
-  height:251px ;
-}
+  
 .description-list{
+  
     list-style: none;
     padding: 0;
     margin: 0 ;
   }
-  /* .description-list{
-    display: flex;
-    list-style: none;
-    padding: 0;
-    margin: 0 ;
-  }
+  
   .description-item{
-    width: 270px; 
+    
   height:251px ;
   & :not(:last-child) {
     margin-right: 30px;
   }
   }
-   */
+   
   
   .description-item > .description-title{
     margin-top: 0;
   }
   .description-item > .description{
     margin-top: 0;
+   
   }
   .discription-thumb{
-
-
+    
      height: 120px;
     border-radius: 4px;
     background-color: #f5f4fa;
@@ -67,3 +61,79 @@
 
 
   }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /* .descript {
+    padding-top: 94px;
+    margin-bottom: 94px;
+  }  */
+  /* .description-item{
+    list-style: none;
+  height:251px ;
+}
+.description-list{
+    list-style: none;
+    padding: 0;
+    margin: 0 ;
+  } */
+  /* .description-list{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0 ;
+  }
+  .description-item{
+    width: 270px; 
+  height:251px ;
+  & :not(:last-child) {
+    margin-right: 30px;
+  }
+  }
+   */
+  
+ /*  .description-item > .description-title{
+    margin-top: 0;
+  }
+  .description-item > .description{
+    margin-top: 0;
+  }
+  .discription-thumb{
+     height: 120px;
+    border-radius: 4px;
+    background-color: #f5f4fa;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  margin-bottom: 30px; 
+  
+  }
+   .description-title {
+     font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+    margin-bottom: 10px;
+  
+  } 
+  .description-paragraph{
+    font-family: var(--primary-font);
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--primary-font-color);
+    margin-bottom: 30px;
+
+
+
+  }  */
