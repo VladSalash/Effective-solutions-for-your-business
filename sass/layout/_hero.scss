@@ -4,7 +4,7 @@
    text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;  
-  min-width: 480px;
+  /* min-width: 480px; */
    margin-left: auto;
   margin-right: auto;  
   background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
@@ -72,7 +72,7 @@ screen and (min-resolution: 24dppx) and (min-width: 1200px) {
     letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-   min-width: 360px;
+   /* min-width: 360px; */
   }  
 
 
