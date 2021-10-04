@@ -13,13 +13,13 @@
   }
   
   .performans-list {
-    display: flex;
-    flex-wrap: wrap;
+   /*  display: flex;
+    flex-wrap: wrap; */
   }
   .performans-list-item {
     position: relative;
-    width: 370px;
-    height: 294px;
+    /* width: 370px;
+    height: 294px; */
     margin-right: 30px;
   }
   .performans-list-item:nth-child(3n) {

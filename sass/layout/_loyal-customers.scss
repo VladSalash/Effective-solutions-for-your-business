@@ -1,28 +1,78 @@
  .loyal-customer{
-    padding-top: 94px;
-    padding-bottom: 94px;
+    /* padding-top: 94px;
+    padding-bottom: 94px; */
   }
+  /* @media screen and (max-width: 768px) {
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
   
+    .loyal-customers-list {
+      width:calc((100%-30px) / 2) ; 
+      font-size: 32px; 
+      list-style:  none;
+    }
+  } */
+
   .loyal-customers-list{
-    /* display: flex; */
+    width: 100%;
+    display: flex ;
+     flex-wrap: wrap;
+     flex-basis: calc(100% / 2 - 30px);
+    @media screen and (min-width: 768px){
+     display: flex ;
+     flex-wrap: wrap;
+    /*  margin-left: -30px;
+     margin-top: -30px; */
+   }  
     list-style:  none;
+   } 
+  /* .loyal-customers-list{
+    @media screen and (min-width: 768px){
+     display: flex ;
+     flex-wrap: wrap;
+     margin-left: -30px;
+     margin-top: -30px;
+   }  
+    list-style:  none;
+   }  */
+   
+.loyal-customers-list-item{
+   width: 100%;
+   img {
+    width: 100%;
+    height: auto;
+   }
+   @media screen and (min-width: 480px) {
+    flex-basis: calc(100% / 2 - 30px);
+    margin-left: 30px;
+    margin-top: 30px;
   }
-  
-  
-  .loyal-customers-list-item{
-    /* margin-right: 30px; */
-    
-    &:not(:last-child){
-    /*  margin-right: 30px;  */
+   @media screen and (min-width: 768px) {
+     flex-basis: calc(100% / 3 - 30px);
+     margin-left: 30px;
+     margin-top: 30px;
+   }
+   @media screen and (min-width: 1200px) {
+    flex-basis: calc(100% / 6 - 30px);
+    margin-left: 30px;
+     margin-top: 30px;
   }
-  }
+   /* margin-right: 30px; */
+   
+   &:not(:last-child){
+   /*  margin-right: 30px;  */
+ }
+ }
   
   .loyal-customers-list-item-link{
     /* display: flex; */
     align-items: center;
     justify-content: center;
    /*  width: 170px; */
-    height: 92px;
+    /* height: 92px; */
     fill: #afb1b8;
     border: 1px solid #afb1b8;
     box-sizing: border-box;
@@ -44,13 +94,14 @@
     font-size: 36px;
       color: var(--secondary-font-color);
       text-align: center;
-      /* margin: 0%; */
-      margin-bottom: 50px;
+      /*  margin: 0%;  */
+      margin-top: 60px;
+      margin-bottom: 35px;
       
   }
   .icon-client{
    /* width: 106px; */
-   height: 60px;
+   /* height: 60px; */
   } 
 
 
