@@ -1,67 +1,87 @@
-
-
 .hero {
-   text-align: center;
+  text-align: center;
   padding-top: 200px;
-  padding-bottom: 200px;  
-   margin-left: auto;
-  margin-right: auto;  
-  background-size: contain;
+  padding-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover ;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
-  url("../images/mobil/optimize/Эффективные\ решения\ для\ вашего\ бизнеса\ \(1\).jpg");
-  
+  background-size: cover;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/mobil/optimize/Эффективные\ решения\ для\ вашего\ бизнеса\ \(1\).jpg");
+  max-width: 480px;
 }
 /* dpr2 и 280px+ */
-@media screen and (min-device-pixel-ratio: 2) and (min-width: 280px),
-screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 280px),
-screen and (-o-min-device-pixel-ratio: 2/1) and (min-width: 280px),
-screen and (min-resolution: 192dpi) and (min-width: 280px),
-screen and (min-resolution: 24dppx) and (min-width: 280px) {
-  .hero{
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
-    url('/images/mobil/optimize/Эффективные\ решения\ для\ вашего\ бизнеса\ \(2\).jpg');
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 480px),
+  screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 480px),
+  screen and (-o-min-device-pixel-ratio: 2/1) and (min-width: 480px),
+  screen and (min-resolution: 192dpi) and (min-width: 480px),
+  screen and (min-resolution: 24dppx) and (min-width: 480px) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../images/mobil/optimize/Эффективные\ решения\ для\ вашего\ бизнеса\ \(2\).jpg");
+    max-width: 480px;
   }
 }
 @media screen and (min-width: 768px) {
-  .hero{
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
-    url("/images/tablet/optimize/Эффективные\ решения\ для\ вашего\ бизнеса.jpg");
+  .hero {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../images/tablet/optimize/Эффективные\ решения\ для\ вашего\ бизнеса.jpg");
+    max-width: 768px;
   }
 }
 /* dpr2 и 768px+ */
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
-screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),
-screen and (-o-min-device-pixel-ratio: 2/1) and (min-width: 768px),
-screen and (min-resolution: 192dpi) and (min-width: 768px),
-screen and (min-resolution: 24dppx) and (min-width: 768px) {
-  .hero{
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
-    url("/images/tablet/optimize/Эффективные\ решения\ для\ вашего\ бизнеса\ \(2\).jpg");
+  screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px),
+  screen and (-o-min-device-pixel-ratio: 2/1) and (min-width: 768px),
+  screen and (min-resolution: 192dpi) and (min-width: 768px),
+  screen and (min-resolution: 24dppx) and (min-width: 768px) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../images/tablet/optimize/Эффективные\ решения\ для\ вашего\ бизнеса\ \(2\).jpg");
+    max-width: 768px;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .hero{
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
-    url("/images/desctop/optimize/Эффективные\ решения\ для\ вашего\ бизнеса.jpg");
+  .hero {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../images/desctop/optimize/Эффективные\ решения\ для\ вашего\ бизнеса.jpg");
+    max-width: 1600px;
   }
 }
 /* dpr2 и 1200px+ */
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
-screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px),
-screen and (-o-min-device-pixel-ratio: 2/1) and (min-width: 1200px),
-screen and (min-resolution: 192dpi) and (min-width: 1200px),
-screen and (min-resolution: 24dppx) and (min-width: 1200px) {
-  .hero{
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
-    url("/images/desctop/optimize/Эффективные\ решения\ для\ вашего\ бизнеса2.jpg");
+  screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px),
+  screen and (-o-min-device-pixel-ratio: 2/1) and (min-width: 1200px),
+  screen and (min-resolution: 192dpi) and (min-width: 1200px),
+  screen and (min-resolution: 24dppx) and (min-width: 1200px) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../images/desctop/optimize/Эффективные\ решения\ для\ вашего\ бизнеса2.jpg");
+    max-width: 1600px;
   }
 }
 
- .hero-title {
+.hero-title {
   margin: 0 auto;
   margin-bottom: 30px;
   font-family: Roboto;
@@ -69,12 +89,11 @@ screen and (min-resolution: 24dppx) and (min-width: 1200px) {
   font-weight: 900;
   font-size: 26px;
   line-height: 42px;
-    letter-spacing: 0.06em;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-   /* min-width: 360px; */
-  }  
-
+  /* min-width: 360px; */
+}
 
 /* .hero {
     text-align: center;
@@ -115,9 +134,3 @@ screen and (min-resolution: 24dppx) and (min-width: 1200px) {
     color: #ffffff;
      width: 696px;
     } */
-  
-  
-  
-  
-    
-  
