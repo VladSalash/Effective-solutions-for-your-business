@@ -22,9 +22,12 @@
     
   }
   .modal-form {
-    width: 448px;
+    width: 370px;
       margin-left: auto;
       margin-right: auto;
+      @media screen and (min-width:1200px) {
+        width: 448px;
+      }
       &.form-label:not(:last-child) {
     margin-bottom: 10px;
   }
@@ -67,9 +70,14 @@
    } 
    
    .comment{
-    width: 448px;
+    width: 370px;
     height: 120px;
     resize: none;
+
+    @media screen and (min-width:1200px) {
+      width: 448px;
+    }
+
     .form-label:focus-within &,
  .form-label:hover  &{
    border-color: var(--link-hover-focus);
@@ -101,7 +109,7 @@
   .checkbox-label{
     display:flex;
     align-items: center;
-    font-size: 14px;
+    font-size: 11px;
     margin-top: 20px;
     line-height: 24px;
     margin-left: 13px;
@@ -110,6 +118,11 @@
     color: var(--primary-font-color);
     text-shadow: 0px 15px 5px rgba(0,0,0,0.1),
      5px   rgba(0,0,0,0.05);
+
+     @media screen and (min-width: 1200px) {
+       font-size: 14px;
+     }
+
      &::before{
     display: block;
     content: "";
@@ -118,6 +131,7 @@
       border: 1px solid var(--secondary-font-color);
       cursor: pointer;
       margin-right: 10px;
+
       
     }
      .checkbox-input:checked + &::before{

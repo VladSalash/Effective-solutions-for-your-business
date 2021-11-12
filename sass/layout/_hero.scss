@@ -1,18 +1,28 @@
 .hero {
+  max-width: 1600px;
+  margin: 0 auto;
+  margin: top 80px;
+  padding-top: 118px;
+  padding-bottom: 118px;
   text-align: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
-  margin-left: auto;
-  margin-right: auto;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  // margin-left: auto;
+  // margin-right: auto;
   background-image: linear-gradient(
+    to right,
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url("../images/mobil/optimize/Эффективные\ решения\ для\ вашего\ бизнеса\ \(1\).jpg");
-  max-width: 480px;
+    url("/images/mobile/optimize/hero1x.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    @media screen and (min-width: 1200px) {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    }
+
+  // max-width: 480px;
 }
 /* dpr2 и 280px+ */
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 480px),
@@ -25,7 +35,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../images/mobil/optimize/Эффективные\ решения\ для\ вашего\ бизнеса\ \(2\).jpg");
+      url("/images/mobile/optimize/hero2x.jpg");
     max-width: 480px;
   }
 }
@@ -35,7 +45,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../images/tablet/optimize/Эффективные\ решения\ для\ вашего\ бизнеса.jpg");
+      url("/images/tablet/optimize/hero1x.jpg ");
     max-width: 768px;
   }
 }
@@ -50,7 +60,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../images/tablet/optimize/Эффективные\ решения\ для\ вашего\ бизнеса\ \(2\).jpg");
+      url("/images/tablet/optimize/hero2x.jpg");
     max-width: 768px;
   }
 }
@@ -61,7 +71,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../images/desctop/optimize/Эффективные\ решения\ для\ вашего\ бизнеса.jpg");
+      url("/images/desktop/optimize/hero1x.jpg");
     max-width: 1600px;
   }
 }
@@ -76,23 +86,47 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url("../images/desctop/optimize/Эффективные\ решения\ для\ вашего\ бизнеса2.jpg");
+      url("/images/desktop/optimize/hero2x.jpg");
     max-width: 1600px;
   }
 }
 
-.hero-title {
+.hero-container{
   margin: 0 auto;
+  
+  @media screen and (min-width: 1200px) {
+  
+  }
+
+}
+
+.hero-title {
   margin-bottom: 30px;
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 900;
   font-size: 26px;
-  line-height: 42px;
+  line-height: 1.6;
+  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-  /* min-width: 360px; */
+  margin-right: auto;
+  margin-left: auto;
+  // font-size: 26px;
+  // font-weight: 900;
+  // line-height: 1.62;
+  // text-transform: uppercase;
+  // color: #ffffff;
+  // text-align: center;
+  // letter-spacing: 0.06em;
+  // margin-bottom: 30px;
+  // margin-right: auto;
+  // margin-left: auto;
+  @media screen and (min-width: 1200px) {
+    font-size: 44px;
+    line-height: 1.36;
+    
+  }
+
 }
 
 /* .hero {
@@ -100,11 +134,11 @@
     padding-top: 200px;
     padding-bottom: 200px; 
   
-     max-width: 1600px;
+    max-width: 1600px;
     margin-left: auto;
     margin-right: auto; 
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
-    url("../images/overlay/overlayfone.jpg");
+    url("../images/overlay/overlay fon.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -117,7 +151,7 @@
   screen and (min-resolution: 24dppx) {
     .hero{
       background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
-      url('/images/mobil/optimize/Эффективные\ решения\ для\ вашего\ бизнеса\ \(2\).jpg');
+      url('/images/mobil/optimize/Эффективные решения для вашего бизнеса\).jpg');
     }
   }
   
@@ -132,5 +166,5 @@
       letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #ffffff;
-     width: 696px;
+    width: 696px;
     } */
