@@ -9,9 +9,11 @@
       justify-content: space-around;
     }
     @media screen and (min-width: 1200px) {
-      text-align: left;
+      // text-align: left;
+      max-width:1200px;
       display: flex;
       align-items: baseline;
+      justify-content:space-between
     }
   }
 }
@@ -30,13 +32,13 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
   
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  @media screen and (min-width:1200px) {
-    display: block;
-    text-align: left;
+  
+  @media screen and (max-width:956px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
+
 }
 .footer-address-list {
   margin-top: 20px;
@@ -94,9 +96,19 @@
   // justify-content: center;
   // margin-bottom: 60px;
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  @media screen and (max-width:956px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+@media screen and (min-width:1200px) {
+  width: 206px;
+  margin-left: 70px;  
+  margin-bottom: 60px;
+  
+}
 
 }
 
@@ -114,6 +126,7 @@
   justify-content: space-around;
   margin-top: 20px;
   margin-bottom: 60px;
+  
 }
 
 .footer-list-icon-item {
@@ -162,14 +175,17 @@
 
 .form-footer {
   
-
+@media screen and (max-width:956px) {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+  
 @media  screen and (min-width: 1200px) {
   display: flex;
-
+align-items: center;
 }
+
 }
 
 .footer-form-title {
@@ -180,7 +196,10 @@
   text-transform: uppercase;
   fill: var(--logo-footer-color);
   letter-spacing: 00.03em;
-  align-items: center;
+  
+  @media screen and (max-width:956px) {
+    text-align: center;
+  }
 }
 
 .button-primary {
@@ -224,10 +243,9 @@
   box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   padding: 12px;
-  // display: block;
   width: 450px;
   height: 50px;
-  margin-top: 20px;
+  margin-top: 20px; 
   margin-bottom: 20px;
 
   @media screen and (min-width: 768px) {
@@ -236,7 +254,6 @@
   @media screen and (min-width: 1200px) {
     width: 358px;
     margin-right: 12px;
-    display: block;
   }
 }
 // .footer-input {

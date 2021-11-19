@@ -216,7 +216,7 @@
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  transition: opasity 500ms linear, visibility 500ms linear;
+  transition: opacity 500ms linear, visibility 500ms linear;
 
   &.is-open {
     opacity: 1;
@@ -369,7 +369,7 @@
     
     background-color: var(--link-hover-focus);
     opacity: 1;
-    transition: opasity 250ms var(--cubic);
+    transition: opacity 250ms var(--cubic);
     }
   
     .nav-item:not(:last-child) {

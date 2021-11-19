@@ -10,7 +10,8 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
       integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
       crossorigin="anonymous"
-      referrerpolicy="no-referrer"
+      referrer
+      policy="no-referrer"
     />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -22,7 +23,7 @@
   </head>
 
   <body>
-    <!-- HEADER -->
+    <!-- HEADER======================================================================= -->
     <header class="header">
       <div class="container header-container">
         <nav class="main-nav">
@@ -113,12 +114,12 @@
               >Twitter</a
             >
           </li>
-          <li class="nav-list__item">
+          <li class="social-nav-list__item">
             <a href="tel:+380961111111" class="social-nav-list__link link"
               >Facebook</a
             >
           </li>
-          <li class="nav-list__item">
+          <li class="social-nav-list__item">
             <a href="tel:+380961111111" class="social-nav-list__link link"
               >LinkedIn</a
             >
@@ -128,12 +129,11 @@
     </header>
 
     <main>
-      <!--  HERO  -->
+      <!--  HERO ======================================================================== -->
       <section class="hero">
-        <div class="container">
+        <div class="hero-container">
           <h1 class="hero-title">
-            Эффективные решения <br />
-            для вашего бизнеса
+            Эффективные решения <br />для вашего бизнеса
           </h1>
           <button class="hero-button" type="button" data-modal-open="">
             Заказать услугу
@@ -141,7 +141,7 @@
         </div>
       </section>
 
-      <!-- Описание -->
+      <!-- DESCRIPTION================================================================ -->
       <section class="descript section">
         <div class="container">
           <h2 class="visually-hidden">description</h2>
@@ -198,7 +198,7 @@
         </div>
       </section>
 
-      <!-- чем мы занимаемся -->
+      <!-- WHAT WE DO================================================================= -->
       <section class="performans">
         <div class="container">
           <h2 class="performans-header">Чем мы занимаемся</h2>
@@ -207,17 +207,13 @@
               <picture>
                 <source
                   srcset="
-                  ./images/desctop/optimize/Десктопные приложения.jpg 1x,
-                  ./images/desctop/optimize/Десктопные приложения2.jpg 2x
+                    ./images/desktop/optimize/desktopappx1.jpg 1x,
+                    ./images/desktop/optimize/desktopappx2.jpg 2x
                   "
+                  src=""
                   media="(min-width:1200px)"
                 />
-                <img
-                  src="images/desctop/optimize/Десктопные приложения.jpg"
-                  alt="человек печатает код"
-                  width="370"
-                  height="295"
-                />
+                <img alt="человек печатает код" width="370" height="295" />
               </picture>
 
               <h3 class="performans-title">Десктопные приложения</h3>
@@ -226,13 +222,13 @@
               <picture>
                 <source
                   srcset="
-            ./images/desctop/optimize/Мобильные приложения.jpg   1x,
-            ./images/desctop/optimize/Мобильные приложения2.jpg 2x
-            "
+                    ./images/desktop/optimize/mobileapp1x.jpg 1x,
+                    ./images/desktop/optimize/mobileapp2x.jpg 2x
+                  "
                   media="(min-width:1200px)"
                 />
                 <img
-                  src="images/desctop/optimize/Мобильные приложения.jpg"
+                  src="./images/desktop/optimize/mobileapp1x.jpg"
                   alt="девушка держит телефон"
                   width="370"
                   height="295"
@@ -245,13 +241,13 @@
               <picture>
                 <source
                   srcset="
-              ./images/desctop//optimize/Дизайнерские решения.jpg   1x,
-              ./images/desctop/optimize/Дизайнерские решения2.jpg 2x
-              "
+                    ./images/desktop/optimize/designsolutions1x.jpg 1x,
+                    ./images/desktop/optimize/designsolutions2x.jpg 2x
+                  "
                   media="(min-width:1200px)"
                 />
                 <img
-                  src="./images/desctop//optimize/Дизайнерские решения.jpg"
+                  src="./images/desktop/optimize/designsolutions1x.jpg"
                   alt="цветовая палитра на планшете"
                   width="370"
                   height="295"
@@ -264,47 +260,41 @@
         </div>
       </section>
 
-      <!-- НАША КОМАНДА -->
+      <!-- OUR TEAM=================================================================== -->
       <section class="our-team">
         <div class="container team-container">
-          <h2 class="Team-title">Наша команда</h2>
+          <h2 class="team-title">Наша команда</h2>
           <ul class="team-list">
             <li class="team-item">
               <picture>
                 <source
                   srcset="
-              ./images/desctop/optimize/Игорь Демьяненко.jpg  1x,
-              ./images/desctop/optimize/Игорь Демьяненко2.jpg 2x
-              "
+                    ./images/desktop/optimize/productdesigner1x.jpg 1x,
+                    ./images/desktop/optimize/productdesigner2x.jpg 2x
+                  "
                   media="(min-width:1200px)"
                 />
                 <source
                   srcset="
-              ./images/tablet/optimize/Игорь Демьяненко.jpg   1x,
-              ./images/tablet/optimize/Игорь Демьяненко2.jpg  2x
-              "
+                    ./images/tablet/optimize/productdesigner1x.jpg 1x,
+                    ./images/tablet/optimize/productdesigner2x.jpg 2x
+                  "
                   media="(min-width:768px)"
                 />
                 <source
                   srcset="
-              ./images/mobil/optimize/Игорь Демьяненко (1).jpg   1x,
-                ./images/mobil/optimize/Игорь Демьяненко (2).jpg 2x
-              "
+                    ./images/mobile/optimize/productdesigner1x.jpg 1x,
+                    ./images/mobile/optimize/productdesigner2x.jpg 2x
+                  "
                   media="(min-width:480px)"
                 />
                 <img
-                  src="./images/mobil/optimize/Игорь Демьяненко (1).jpg"
+                  src="./images/mobile/optimize/productdesigner1x.jpg"
                   alt="Дизайнер продукта"
                 />
               </picture>
-              <!-- <img
-            src="images/Team/ИгорьДемьяненко.jpg"
-            alt="ИгорьДемьяненко"
-            width="270"
-            height="260"
-            /> -->
               <div class="team-box">
-                <h3 class="Name">Игорь Демьяненко</h3>
+                <h3 class="name">Игорь Демьяненко</h3>
                 <p class="specialty">Product Designer</p>
                 <ul class="team-list-icon">
                   <li class="team-list-icon-item">
@@ -346,31 +336,32 @@
                 </ul>
               </div>
             </li>
+
             <li class="team-item">
               <picture>
                 <source
                   srcset="
-              ./images/desctop/optimize/Ольга Репина.jpg 1x ,
-              ./images/desctop/optimize/Ольга Репина2.jpg 2x
-              "
+                    ./images/desktop/optimize/frontenddeveloper1x.jpg 1x,
+                    ./images/desktop/optimize/frontenddeveloper2x.jpg 2x
+                  "
                   media="(min-width:1200px)"
                 />
                 <source
                   srcset="
               ./images/tablet/optimize/Ольга Репина.jpg 1x,
-              ./images/tablet/optimize/Ольга Репина2.jpg 2x
+              ./images/tablet/optimize/frontenddeveloper2x.jpg 2x
               "
                   media="(min-width:768px)"
                 />
                 <source
                   srcset="
-              ./images/mobil/optimize/Ольга Репина (1).jpg   1x,
-              ./images/mobil/optimize/Ольга Репина (2).jpg 2x
-              "
+                    ./images/mobile/optimize/frontenddeveloper1x.jpg 1x,
+                    ./images/mobile/optimize/frontenddeveloper2x.jpg 2x
+                  "
                   media="(min-width:480px)"
                 />
                 <img
-                  src="./images/mobil/optimize/Ольга Репина (1).jpg"
+                  src="./images/mobile/optimize/frontenddeveloper1x.jpg"
                   alt="Frontend Developer"
                 />
               </picture>
@@ -381,7 +372,7 @@
             height="260"
           /> -->
               <div class="team-box">
-                <h3 class="Name">Ольга Репина</h3>
+                <h3 class="name">Ольга Репина</h3>
                 <p class="specialty">Frontend Developer</p>
                 <ul class="team-list-icon">
                   <li class="team-list-icon-item">
@@ -427,27 +418,27 @@
               <picture>
                 <source
                   srcset="
-              ./images/desctop/optimize/Николай Тарасов1.jpg 1x ,
-              ./images/desctop/optimize/Николай Тарасов2.jpg 2x
-              "
+                    ./images/desktop/optimize/marketing1x.jpg 1x,
+                    ./images/desktop/optimize/marketing2x.jpg 2x
+                  "
                   media="(min-width:1200px)"
                 />
                 <source
                   srcset="
-              ./images/tablet/optimize/Николай Тарасов.jpg 1x,
-              ./images/tablet/optimize/Николай Тарасов2.jpg 2x
-              "
+                    ./images/tablet/optimize/marketing1x.jpg 1x,
+                    ./images/tablet/optimize/marketing2x.jpg 2x
+                  "
                   media="(min-width:768px)"
                 />
                 <source
                   srcset="
-              ./images/mobil/optimize/Николай Тарасов (1).jpg   1x,
-              ./images/mobil/optimize/Николай Тарасов (2).jpg 2x
-              "
+                    ./images/mobile/optimize/marketing1x.jpg 1x,
+                    ./images/mobile/optimize/marketing2x.jpg 2x
+                  "
                   media="(min-width:480px)"
                 />
                 <img
-                  src="./images/mobil/optimize/Николай Тарасов (1).jpg"
+                  src="./images/mobile/optimize/marketing1x.jpg"
                   alt="Marketing"
                 />
               </picture>
@@ -458,7 +449,7 @@
             height="260"
           /> -->
               <div class="team-box">
-                <h3 class="Name">Николай Тарасов</h3>
+                <h3 class="name">Николай Тарасов</h3>
                 <p class="specialty">Marketing</p>
                 <ul class="team-list-icon">
                   <li class="team-list-icon-item">
@@ -504,27 +495,27 @@
               <picture>
                 <source
                   srcset="
-              ./images/desctop/optimize/Михаил Ермаков.jpg 1x ,
-              ./images/desctop/optimize/Михаил Ермаков2.jpg 2x
-              "
+                    ./images/desktop/optimize/uidesigner1x.jpg 1x,
+                    ./images/desktop/optimize/uidesigner2x.jpg 2x
+                  "
                   media="(min-width:1200px)"
                 />
                 <source
                   srcset="
-              ./images/tablet/optimize/Михаил Ермаков.jpg 1x,
-              ./images/tablet/optimize/Михаил Ермаков2.jpg 2x
-              "
+                    ./images/tablet/optimize/uidesigner1x.jpg 1x,
+                    ./images/tablet/optimize/uidesigner2x.jpg 2x
+                  "
                   media="(min-width:768px)"
                 />
                 <source
                   srcset="
-              ./images/mobil/optimize/Михаил Ермаков (1).jpg   1x,
-              ./images/mobil/optimize/Михаил Ермаков (2).jpg 2x
-              "
+                    ./images/mobile/optimize/uidesigner1x.jpg 1x,
+                    ./images/mobile/optimize/uidesigner2x.jpg 2x
+                  "
                   media="(min-width:480px)"
                 />
                 <img
-                  src="./images/mobil/optimize/Михаил Ермаков (1).jpg"
+                  src="./images/mobile/optimize/uidesigner1x.jpg"
                   alt="UI Designer"
                 />
               </picture>
@@ -535,7 +526,7 @@
             height="260"
           /> -->
               <div class="team-box">
-                <h3 class="Name">Михаил Ермаков</h3>
+                <h3 class="name">Михаил Ермаков</h3>
                 <p class="specialty">UI Designer</p>
                 <ul class="team-list-icon">
                   <li class="team-list-icon-item">
@@ -581,7 +572,7 @@
         </div>
       </section>
     </main>
-    <!-- loyal customers -->
+    <!-- loyal customers ==========================================================-->
     <section class="loyal-customer">
       <div class="container">
         <h2 class="loyal-customers-title">Постоянные клиенты</h2>
@@ -632,29 +623,30 @@
       </div>
     </section>
 
-    <!-- Footer -->
+    <!-- Footer==================================================================== -->
     <footer class="footer">
       <div class="container footer-container">
-        <div class="container-adress">
+        <!-- FOOTER ADDRESS================================ -->
+        <div class="footer-address">
           <a class="logo-footer" href=" "
             >Web<span class="logo-color-footer">Studio</span></a
           >
           <address class="main-contact">
-            <ul class="list">
-              <li class="footer-adress-item">
+            <ul class="footer-address-list list">
+              <li class="footer-address-item">
                 <a
                   href="https://goo.gl/maps/8NbSCPgEPVCYa1LM7"
-                  class="footer-adress"
+                  class="footer-address"
                   >г. Киев, пр-т Леси Украинки, 26</a
                 >
               </li>
-              <li class="footer-adress-item">
-                <a href="info@devstudio.com" class="footer-adress-mail"
+              <li class="footer-address-item">
+                <a href="info@devstudio.com" class="footer-address-mail"
                   >info@devstudio.com</a
                 >
               </li>
-              <li class="footer-adress-item">
-                <a href="tel:+380961111111" class="footer-adress-tel"
+              <li class="footer-address-item">
+                <a href="tel:+380961111111" class="footer-address-tel"
                   >+38 096 111 11 11</a
                 >
               </li>
@@ -662,7 +654,7 @@
           </address>
         </div>
 
-        <!-- footer-social -->
+        <!-- footer-social========================================================= -->
 
         <div class="footer-social">
           <h3 class="icon-title">присоединяйтесь</h3>
@@ -698,29 +690,31 @@
           </ul>
         </div>
 
-        <!-- footer-form-mail -->
-
-        <form class="form-footer" action="#">
+        <!-- footer-form-mail ============================================================-->
+        <div>
           <h3 class="footer-form-title">Подпишитесь на рассылку</h3>
+          <form class="form-footer" action="#">
+            <input
+              class="footer-input"
+              type="email"
+              name="email"
+              placeholder="E-mail"
+            />
 
-          <input
-            class="footer-input"
-            type="email"
-            name="email"
-            placeholder="E-mail"
-          />
-
-          <button class="button-primary subscription" type="submit">
-            Подписаться<svg class="footer-send" width="24" height="24">
-              <use href="./images/icons/icons.svg#icon-send"></use>
-            </svg>
-          </button>
-        </form>
+            <button class="button-primary subscription" type="submit">
+              Подписаться<svg class="footer-send" width="24" height="24">
+                <use href="./images/icons/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
 
         <!--end-footer-form-mail -->
       </div>
     </footer>
-    <!-- modal-form -->
+    <!-- END Footer -->
+
+    <!-- modal-form ==================================================================-->
     <div class="backdrop is-hidden" data-modal="">
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close="">
