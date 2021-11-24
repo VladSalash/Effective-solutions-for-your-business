@@ -10,7 +10,7 @@
     }
     @media screen and (min-width: 1200px) {
       // text-align: left;
-      max-width:1200px;
+      max-width: 1200px;
       display: flex;
       align-items: baseline;
       justify-content:space-between
@@ -25,7 +25,6 @@
 
 // FOOTER ADDRESS===================================================================================
 .footer-address {
-  font-family: "Roboto";
   color: var(--logo-footer-color);
   font-style: normal;
   font-size: 14px;
@@ -41,12 +40,11 @@
 
 }
 .footer-address-list {
+  font-family: var(--primary-font);
   margin-top: 20px;
   margin-bottom: 60px;
   text-align: center;
-  // justify-content: center;
-  // margin-top: 20px;
-  // margin-bottom: 60px;
+
   @media screen and (min-width:1200px) {
     display: block;
     text-align: left;
@@ -78,11 +76,23 @@
 .logo-footer {
   font-family: Raleway;
   font-weight: bold;
-  font-size: 26px;
-  line-height: 31px;
+  font-size: 24px;
+  line-height: 28px;
   text-decoration: none;
   letter-spacing: 0.03em;
   color: #2196f3;
+
+  @media screen and (min-width: 768px) {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  @media screen and (min-width:1200px) {
+    font-size: 26px;
+    line-height: 31px;
+
+  }
+
 }
 
 .logo-color-footer {
@@ -90,29 +100,23 @@
 }
 // FOOTER SOCIAL===============================================================================================
 .footer-social {
-  // width: 206px;
-  // margin-left: 70px;
-  // text-align: center;
-  // justify-content: center;
-  // margin-bottom: 60px;
 
   @media screen and (max-width:956px) {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 20px;
   }
   
 @media screen and (min-width:1200px) {
   width: 206px;
   margin-left: 70px;  
-  margin-bottom: 60px;
   
 }
 
 }
 
 .icon-title {
+  font-family: var(--primary-font);
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
@@ -189,6 +193,7 @@ align-items: center;
 }
 
 .footer-form-title {
+  font-family: var(--primary-font);
   color: var(--logo-footer-color);
   font-size: 14px;
   line-height: 16px;

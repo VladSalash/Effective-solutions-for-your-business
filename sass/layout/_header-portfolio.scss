@@ -104,9 +104,14 @@
 }
 
 .auth-nav {
+  margin-left: 84px;
   @media screen and (max-width: 767px) {
     display: none;
   }
+
+  // @media screen and (min-width: 768px) {
+  //   margin-left: 84px;
+  // }
 
   @media screen and (min-width: 1200px) {
     display: flex;
@@ -136,8 +141,8 @@
 .contact-link {
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 12px;
+  line-height: 14px;
   letter-spacing: 0.02em;
   color: #757575;
   text-decoration: none;
