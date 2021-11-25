@@ -743,6 +743,7 @@ body {
   color: #ffffff;
   margin-right: auto;
   margin-left: auto;
+  font-style: normal;
 }
 
 @media screen and (min-width: 1200px) {
@@ -1847,6 +1848,7 @@ body {
   .footer-social {
     width: 206px;
     margin-left: 70px;
+    margin-right: 93px;
   }
 }
 
