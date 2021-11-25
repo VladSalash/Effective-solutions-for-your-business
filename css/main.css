@@ -215,6 +215,9 @@ body {
 }
 
 .nav-list__link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
   font-size: 40px;
   line-height: 47px;
   text-align: center;
@@ -228,10 +231,13 @@ body {
 }
 
 .contact-nav-list__link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
   font-size: 34px;
   line-height: 40px;
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color: #2196F3;
 }
 
 .contact-mail__item {
@@ -239,6 +245,9 @@ body {
 }
 
 .mail-nav-list__link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
   font-size: 24px;
   line-height: 28px;
   letter-spacing: 0.02em;
@@ -247,6 +256,16 @@ body {
 
 .social-nav-list {
   display: flex;
+}
+
+.social-nav-list__item {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  color: #2196F3;
 }
 
 .social-nav-list__item:not(:last-child) {
@@ -1197,6 +1216,12 @@ body {
   text-transform: uppercase;
   color: #212121;
   margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .description-title {
+    text-align: center;
+  }
 }
 
 .description-paragraph {
