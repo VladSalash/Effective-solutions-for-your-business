@@ -1,3 +1,2 @@
-# Эфективные решения для вашего бизнеса
-
+# Effective solutions for your business
 
